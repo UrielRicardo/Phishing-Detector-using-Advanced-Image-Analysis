@@ -24,7 +24,7 @@ for url in urls[0:5]:
     filename = re.search(r'/([\w_-]+[.](jpg|gif|png))$', url)
     if 'http' not in url:
         url = '{}{}'.format(site, url)
+    print(url)
     response = requests.get(url)
     print(url)
     os.system('python /root/facul/detect.py web-uri ' +url)
-
