@@ -1,1 +1,1 @@
-# Phishing_ComputerVision
+# Phishing detector using google cloud vision
