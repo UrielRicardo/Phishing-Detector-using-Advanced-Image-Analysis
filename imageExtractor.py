@@ -20,7 +20,7 @@ img_tags = soup.find_all('img')
 urls = [img['src'] for img in img_tags]
 
 
-for url in urls[0:7]:
+for url in urls[0:5]:
     filename = re.search(r'/([\w_-]+[.](jpg|gif|png))$', url)
     if 'http' not in url:
         url = '{}{}'.format(site, url)
