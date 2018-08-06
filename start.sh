@@ -1,12 +1,9 @@
 #!/bin/bash
 array=(
-http://vinicblog.blogspot.com.br/2010/01/o-que-significa-o-logotipo-do-bradesco.html
-https://qi.edu.br/
-https://www.brandsoftheworld.com/logo/bradesco-4
-
+https://www.universidadedobitcoin.com.br/
+https://app.foxbit.com.br/
 )
 
 for i in "${array[@]}"; do
-    python /root/facul/imageExtractor.py "$i"
+    python /aplicacoes/imageExtractor.py "$i"
 done
-
