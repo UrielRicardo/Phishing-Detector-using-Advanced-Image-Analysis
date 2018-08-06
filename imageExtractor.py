@@ -27,4 +27,4 @@ for url in urls[0:5]:
     print(url)
     response = requests.get(url)
     print(url)
-    os.system('python aplicacoes/ProjectSharingan/detect.py web-uri ' +url)
+    os.system('python Aplicacoes/ProjectSharingan/detect.py web-uri ' +url)
