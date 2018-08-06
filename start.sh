@@ -5,5 +5,5 @@ https://app.foxbit.com.br/
 )
 
 for i in "${array[@]}"; do
-    python /aplicacoes/imageExtractor.py "$i"
+    python Aplicacoes/ProjectSharingan/imageExtractor.py "$i"
 done
